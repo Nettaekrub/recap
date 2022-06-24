@@ -1,11 +1,9 @@
-import Informer from "./components/Informer";
-import Agency from "./components/Agency";
-import BoxMain from "./components/BoxMain";
+import Map from "./components/Map";
 
 function App() {
     return ( 
     <body>
-        <BoxMain></BoxMain>
+        <Map/>
     </body>
     );
 }

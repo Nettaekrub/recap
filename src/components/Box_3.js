@@ -1,7 +1,8 @@
 import React from 'react'
 import "./Box_3.css"
 
-function Box_3() {
+function Box_3() { 
+   
     return (
         <div className="container">
             <div className='block'>
