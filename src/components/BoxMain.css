@@ -1,0 +1,33 @@
+.container {
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    padding-right: 30px;
+    
+    
+}
+
+.block {
+    display: flex;
+    padding: 4rem 1rem 90rem ;
+    border: 150px solid transparent;
+    transition: 0.3s;
+    background-color: white;
+    position: relative;
+    padding-right: 60px;
+    
+}
+
+.imag {
+    height: 50px;
+    max-width: 100%;
+    position: absolute;
+    right: 150px;
+    bottom: 1600px;
+
+}
+

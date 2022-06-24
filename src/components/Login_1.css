@@ -1,0 +1,27 @@
+.banner-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.color_red{
+    background: #E50E21;
+    box-shadow: 5px -5px #BE0E1D;    
+    color: white;
+}
+.color_red:hover{
+    background: #e6e6e6e6;
+    color: #BE0E1D;
+    border: 2px solid #BE0E1D;
+}
+
+.banner-btn {
+    display: inline-block;
+    padding: 0 2rem;
+    text-align: center;
+    text-decoration: none;
+    border: 12px solid transparent;
+    transition: 0.3s;
+    margin-top: 7rem;
+    border-radius: 5px;
+}

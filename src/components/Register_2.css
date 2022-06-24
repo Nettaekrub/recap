@@ -1,0 +1,49 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 17px;
+    position: relative;
+    bottom: 360px;
+    margin-left:25px;
+    font-family: 'Kanit',sans-serif;
+    
+}
+
+.confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.color_red{
+    background: #E50E21;
+    box-shadow: 5px -5px #BE0E1D;    
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #BE0E1D;
+}
+.color_red:hover{
+    background: #e6e6e6e6;
+    color: #BE0E1D;
+    border: 2px solid #BE0E1D;
+    transition: 0.3s all ease-in-out;
+}
+
+
+/* .Forget-password-btn {
+    display: flex;
+    padding: 0 2rem;
+    text-decoration: none;
+    border: 12px solid transparent;
+    transition: .2s all ease-in-out;
+    border-radius: 5px;
+    margin-top: 110px;
+
+} */
