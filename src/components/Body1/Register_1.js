@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Register.css"
-function Register() {
+import "./Register_1.css"
+function Register_1() {
     return (
             <div className="RegisterBanner-con">
                 <a href="#" className="RegisterBanner-btn color_red">Register</a>
@@ -8,4 +8,4 @@ function Register() {
     )
 }
 
-export default Register
+export default Register_1

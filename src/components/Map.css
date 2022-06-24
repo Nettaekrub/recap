@@ -1,3 +1,6 @@
+
+
+
 nav {
     display: flex;
     height: 100px;
@@ -17,7 +20,7 @@ nav {
 .Header_2 {
     font-family: 'Kanit',sans-serif;
     padding-top: 60px;
-    right: 100px;
+    right: 110px;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -40,7 +43,7 @@ nav {
 
 .Report {
     position: relative;
-    left: 80px;
+    left: 70px;
     height: 70px;
     bottom: 50px;
     text-transform: uppercase;
@@ -50,7 +53,7 @@ nav {
 
 .Agency {
     position: relative;
-    left: 105px;
+    left: 95px;
     height: 60px;
     bottom: 30px;
     text-transform: uppercase;
@@ -59,22 +62,15 @@ nav {
     transition: 0.3s;
 }
 
-.Contact {
+.Back {
     position: relative;
-    left: 50px;
+    left: 140px;
     height: 60px;
     bottom: 10px;
     text-transform: uppercase;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     transition: 0.3s;
-}
-
-.Back {
-
-
-
-
 }
 
 .color_black{
@@ -100,9 +96,24 @@ nav {
     
 }
 .color_grey:hover{
-    background:  #D7D5D5 ;
+    background: #e6e6e6e6;
     color: black;
-    border: 2px solid #D7D5D5;
+    border: 2px solid black;
     transition: 0.3s all ease-in-out;
-    border-color: #D7D5D5;
+}
+
+.color_white{
+    background: white;
+    color: #BE0E1D;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.color_white:hover{
+    background: #e6e6e6e6;
+    color: black;
+    border: 2px solid black;
+    transition: 0.3s all ease-in-out;
+
 }

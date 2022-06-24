@@ -1,6 +1,7 @@
 import { useState, Button} from 'react';
 import "./Login_2.css"
 
+
 function Login_2() {
   const [inputs, setInputs] = useState({});
   const handleClick = () => {

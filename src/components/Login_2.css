@@ -21,14 +21,14 @@
 }
 
 .color_grey{
-    background: #817C7D;
-    box-shadow: 5px -5px #635F5F;  
+    background: #D7D5D5;
+    box-shadow: 5px -5px #D7D5D5;  
     color: white;
 }
 .color_grey:hover{
-    background:  #635F5F ;
+    background:  #D7D5D5 ;
     color: #817C7D;
-    border: 2px solid #635F5F;
+    border: 2px solid #D7D5D5;
     transition: 0.3s all ease-in-out;
 }
 
